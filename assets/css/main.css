@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(157, 157, 157);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.card-body h3 {
+  text-align: center;
+}
+
+.card-body input {
+  font-size: 1.1rem;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.card-body p {
+  font-size: 1.3rem;
+}
+
+.card-footer {
+  text-align: center;
+}
+.card-footer button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+.card-footer button:active {
+  background-color: brown;
+}
+
+.totales {
+  margin: 0 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 180px;
+}
+
+.totales p {
+  margin: 20px 5px;
+  font-size: 1.2rem;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+}
+
+.circle-container p {
+  margin-top: 0;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
